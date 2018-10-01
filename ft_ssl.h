@@ -16,6 +16,10 @@
 # include "libft/includes/libft.h"
 # include <fcntl.h>
 
-
+typedef struct s_inpt
+{
+	char	 	*cmnd;//the command we are using : md5 sha256 etc.
+	
+}				t_inpt;
 
 #endif

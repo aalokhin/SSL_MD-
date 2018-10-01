@@ -26,7 +26,7 @@ YELLOW		=	\033[0;33m
 LIGHT 		= 	\033[0;5m
 COLOR_OFF	= 	\033[0m
 
-$(NAME): $(O)
+$(NAME): $(O) ft_ssl.h
 	@echo "$(YELLOW)compiling..."
 	@make -C libft
 	@gcc $(F) $(O) libft/libft.a  -o $(NAME)
